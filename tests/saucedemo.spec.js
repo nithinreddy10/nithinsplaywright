@@ -23,7 +23,7 @@ test("verify login with valid username and invalid password", async ({ page }) =
 
     await page.locator("(//input[@class='form_input'])[1]").fill("standard_user")
 
-    await page.locator("(//input[@class='form_input'])[2]").fill("abcdef")
+    await page.locator("(//input[@class='form_input'])[2]").fill(data.wrongpassword)
 
     await page.locator("//input[@type='submit']").click()
 
