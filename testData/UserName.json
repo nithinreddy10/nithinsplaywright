@@ -1,5 +1,7 @@
 {
     "firstname" : "standard_user",
     "lastname"  : "secret_sauce",
-    "wrongpassword" : "abcdef"
+    "wrongpassword" : "abcdef",
+    "OrangeUsername" : "Admin",
+    "OrangePassword" : "admin123"
 }

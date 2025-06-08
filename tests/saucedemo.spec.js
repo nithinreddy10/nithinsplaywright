@@ -70,6 +70,29 @@ test("verify successful login and logout", async ({ page }) => {
     await expect(page.locator("(//body[@class='main-body']//div)[1]")).toBeVisible()
 
 
+}
+)
+
+test("Add job title ", async ({ page }) => {
+
+    await page.goto("https://www.saucedemo.com/v1/")
+
+    await page.locator("(//input[@class='form_input'])[1]").fill("standard_user")
+
+    await page.locator("(//input[@class='form_input'])[2]").fill("secret_sauce")
+
+    await page.locator("//input[@type='submit']").click()
+
+    await expect(page).toHaveURL("https://www.saucedemo.com/v1/inventory.html")
+
+    await page.locator("//button[normalize-space(text())='Open Menu']").click()
+
+    await page.locator("(//a[@class='bm-item menu-item'])[3]").click()
+
+    await expect(page.locator("(//body[@class='main-body']//div)[1]")).toBeVisible()
+
+
+    
 
 
 

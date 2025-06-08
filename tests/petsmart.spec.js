@@ -4,15 +4,15 @@ import data from "../testData/LoginDetails.json"
 
 test("verify login with valid credential in saucedemo webpage", async ({ page }) => {
 
-    await page.goto("https://www.saucedemo.com/v1/")
+    await page.goto("https://development.pilot.petsmart.com?experimentGroup=fullsolution")
+    await page.locator("//a[@class='sparky-c-text-link legacy-signin__link']//span[1]").click()
+    await page.locator("(//input[@name='email'])[1]").fill(data.username)
+    await page.locator("(//input[@name='password'])[1]").fill(data.password)
+    await page.locator("(//div[@class='sparky-l-grid__item sign-in-form__cta']//button)[1]").click()
 
-    await page.locator("(//input[@class='form_input'])[1]").fill(data.username)
 
-    await page.locator("(//input[@class='form_input'])[2]").fill(data.password)
 
-    await page.locator("//input[@type='submit']").click()
 
-    await expect(page).toHaveURL("https://www.saucedemo.com/v1/inventory.html")
 
 }
 )
