@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-import data from "../testData/UserName.json"
-import jobtitles from "../testData/addjobtitle.json"
+import data from "../../testData/UserName.json"
+import jobtitles from "../../testData/addjobtitle.json"
 
 test("OrangeHRM add job title", async ({ page }) => {
 

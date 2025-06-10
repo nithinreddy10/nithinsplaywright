@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-import data from "../testData/UserName.json"
+import data from "../../testData/UserName.json"
 
 test("verify login with valid credential in saucedemo webpage", async ({ page }) => {
 
