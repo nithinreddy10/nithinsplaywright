@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import {, test, expect } from '@playwright/test';
 
 test("Hero ku app missing elements", async ({ page }) => {
 
@@ -9,14 +9,13 @@ test("Hero ku app missing elements", async ({ page }) => {
 
     await page.goto("https://the-internet.herokuapp.com/disappearing_elements")
 
-    if(await Gallery.isVisible())
-        {
-            await Gallery.click()
-            await page.locator("//h1[normalize-space()='Not Found']").isVisible()
-            console.log("clicked on Gallery")
+    if (await Gallery.isVisible()) {
+        await Gallery.click()
+        await page.locator("//h1[normalize-space()='Not Found']").isVisible()
+        console.log("clicked on Gallery")
 
-        }
-    
+    }
+
 
     else if (await ContactUs.isVisible()) {
         //click on ContactUs
@@ -34,18 +33,26 @@ test("Hero ku app missing elements", async ({ page }) => {
 
         console.log("clicked on ContactUs, About & Portfolio")
     }
- 
-    else 
-    {
+
+    else {
         console.log("no elements found")
     }
-   
+
 
 }
 )
 
+test("switch & break", async ({ page }) => {
 
-// await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-//     await page.locator("(//label[normalize-space(text())='Username']/following::input)[1]").fill(process.env.ORGHRM_USERNAME)
-//     await page.locator("//label[normalize-space(text())='Password']/following::input").fill(process.env.ORGHRM_PASSWORD)
-//     await page.locator("//button[@type='submit']").click()
+    switch (browserName)
+
+    {
+        case "chromium":
+            {
+                await page.goto("www.flipkart.com")
+
+            }
+    }
+
+}
+)
