@@ -1,4 +1,4 @@
-import {, test, expect } from '@playwright/test';
+import {test, expect } from '@playwright/test';
 
 test("Hero ku app missing elements", async ({ page }) => {
 
