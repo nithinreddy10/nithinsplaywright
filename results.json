@@ -90,13 +90,13 @@
   },
   "suites": [
     {
-      "title": "Heroku app\\herokuapp.spec.js",
-      "file": "Heroku app/herokuapp.spec.js",
+      "title": "datadriven2.spec.js",
+      "file": "datadriven2.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Hero ku app missing elements",
+          "title": "OrangeHRM add job titles edu1",
           "ok": true,
           "tags": [],
           "tests": [
@@ -108,39 +108,121 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 16,
+                  "workerIndex": 21,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5485,
+                  "duration": 4806,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "no elements found\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-16T20:43:31.320Z",
+                  "startTime": "2025-06-19T00:46:25.340Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Nithin Reddy Putta\\Documents\\learnPlayWright\\test-results\\datadriven2-OrangeHRM-add-job-titles-edu1-chromium\\test-finished-1.png"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "9a4cabc361c077d69785-edce38e2936da044ff56",
-          "file": "Heroku app/herokuapp.spec.js",
-          "line": 3,
-          "column": 5
+          "id": "f1b05e40e710d7ca4edb-12d5a39879f494f86b9b",
+          "file": "datadriven2.spec.js",
+          "line": 17,
+          "column": 9
+        },
+        {
+          "title": "OrangeHRM add job titles edu2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5021,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-19T00:46:30.297Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Nithin Reddy Putta\\Documents\\learnPlayWright\\test-results\\datadriven2-OrangeHRM-add-job-titles-edu2-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1b05e40e710d7ca4edb-62a626ef730e2a0c618b",
+          "file": "datadriven2.spec.js",
+          "line": 17,
+          "column": 9
+        },
+        {
+          "title": "OrangeHRM add job titles edu3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5094,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-19T00:46:35.331Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Nithin Reddy Putta\\Documents\\learnPlayWright\\test-results\\datadriven2-OrangeHRM-add-job-titles-edu3-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f1b05e40e710d7ca4edb-a4bb7e9bcbfdfb6c242f",
+          "file": "datadriven2.spec.js",
+          "line": 17,
+          "column": 9
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-16T20:43:28.650Z",
-    "duration": 8270.40100000007,
-    "expected": 1,
+    "startTime": "2025-06-19T00:46:20.545Z",
+    "duration": 20009.394999995828,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
