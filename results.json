@@ -108,15 +108,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 21,
+                  "workerIndex": 25,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4806,
+                  "duration": 4957,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-19T00:46:25.340Z",
+                  "startTime": "2025-06-19T00:51:47.736Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -132,7 +132,7 @@
           ],
           "id": "f1b05e40e710d7ca4edb-12d5a39879f494f86b9b",
           "file": "datadriven2.spec.js",
-          "line": 17,
+          "line": 11,
           "column": 9
         },
         {
@@ -148,15 +148,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 21,
+                  "workerIndex": 25,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5021,
+                  "duration": 5023,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-19T00:46:30.297Z",
+                  "startTime": "2025-06-19T00:51:52.760Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -172,7 +172,7 @@
           ],
           "id": "f1b05e40e710d7ca4edb-62a626ef730e2a0c618b",
           "file": "datadriven2.spec.js",
-          "line": 17,
+          "line": 11,
           "column": 9
         },
         {
@@ -188,15 +188,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 21,
+                  "workerIndex": 25,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5094,
+                  "duration": 5368,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-19T00:46:35.331Z",
+                  "startTime": "2025-06-19T00:51:57.797Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -212,7 +212,7 @@
           ],
           "id": "f1b05e40e710d7ca4edb-a4bb7e9bcbfdfb6c242f",
           "file": "datadriven2.spec.js",
-          "line": 17,
+          "line": 11,
           "column": 9
         }
       ]
@@ -220,8 +220,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-19T00:46:20.545Z",
-    "duration": 20009.394999995828,
+    "startTime": "2025-06-19T00:51:44.769Z",
+    "duration": 18432.47200000286,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,
